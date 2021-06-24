@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/f81be34085.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="parcial.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap" rel="stylesheet">
+	<title>parcial</title>
+</head>
+<body>
+	<div class="container1">
+		<div class="back">
+
+		<div class="haderback">
+			<div class="hader">
+				<div class="logo">
+					<a><i class="fas fa-birthday-cake"></i> Divan'S</a>
+				</div>
+					<ul id="menu">
+					<li><a href="">Casa</a></li>
+					<li><a href="">Acerca De</a></li>
+					<li><a href="">Recetas</a></li>
+					<li><a href="">Paginas ▼ </a>
+						<ul>
+						<li><a href="">Publicaciones De Blog</a></li>
+              			<li><a href="">404 Pagina</a></li>
+              			<li><a href="">Pagina De Destino</a>
+						</ul>
+					</li>
+					<li><a href="">Contacto</a></li>
+					</ul>
+
+				<div class="compraahora">
+					<button class="fas fa-search"></button> 
+					<button id="compraahora">Compra ahora</button>
+					<button class="fas fa-moon"></button>
+
+				</div>
+				<div class="menuicon">
+					<div class="botonmenu" >
+
+					<button  id="menuicon" onclick=mostrar(); class="fa fa-bars"></button> 
+					<button  id="menuicon2" onclick=ocultar(); class="fa fa-times"></button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="menures" id="menures1"  >
+					<ul id="menures">
+					<li><a href="">Casa</a></li>
+					<li><a href="">Acerca De</a></li>
+					<li><a href="">Recetas</a>
+						</li>
+					<li><a href="">Paginas ▼ </a>
+						<ul>
+						<li><a href="">Publicaciones De Blog</a></li>
+              			<li><a href="">404 Pagina</a></li>
+              			<li><a href="">Pagina De Destino</a>
+						</ul>
+					</li>
+					<li><a href="">Contacto</a></li>
+					</ul>
+					</div>
+
+
+
+	    <div class="container1con">
+	    	<div class="container1contitulo">
+	    		<h1>Productos Divan'S</h1>
+
+	    	</div>
+	    	<div class="container1conp">
+	    		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quod autem, quia ab optio dolore ea quae earum, sed modi porro, recusandae aspernatur non alias? Ipsa laudantium culpa corporis eligendi.</p>
+	    	</div>
+	    	<div class="container1conbutton">
+	    		<button>Lee mas</button>
+	    	</div>
+
+	    </div>
+	    </div>
+	    </div>
+
+	    <script>
+	function mostrar() {
+		document.getElementById("menures1").style.display ='flex';
+		document.getElementById("menuicon").style.display ='none';
+		document.getElementById("menuicon2").style.display ='flex';
+
+
+
+	}
+	document.getElementById("menuicon").onclick=function(){
+		mostrar();
+	}
+	function ocultar() {
+		document.getElementById("menures1").style.display ='none';
+		document.getElementById("menuicon").style.display ='flex';
+		document.getElementById("menuicon2").style.display ='none';	
+	}
+	document.getElementById("menuicon2").onclick=function(){
+		ocultar();
+	}
+</script>
+
+	    <div class="container2">
+	    	<div class="container2con">
+	    		<h3>LO MEJOR PARA TI</h3>
+	    		<h2>Quienes somos.</h2>
+	    		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta perferendis reiciendis fugit consequuntur eaque, aut illo quae iusto explicabo quod asperiores exercitationem dolorum quo voluptates sint doloribus iste ipsa assumenda!</p>
+	    		<button>Aprende mas</button>
+	    	</div>
+	    	<div class="container2img">
+	    		<img src="img/5.jpg">
+	    	</div>	
+	    	<div class="container2img">
+	    		<img src="img/6.jpg">
+	    	</div>
+	    	<div class="container2img">
+	    		<img src="img/7.jpg">
+	    	</div>
+	    </div>
+	    	<div class="container3">
+	    		<h3>NUESTROS SERVICIOS</h3>
+	    		<h2>Nuestros Productos</h2>
+	    	</div>
+	    	<div class="container4">
+	    		<div class="back2">
+	    		<div class="container4con">
+	    			<img src="img/10.jpg">
+	    			<h3><a href="">Variedad de bocaditos</a></h3>
+	    			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+	    		</div>
+	    		<div class="container4con">
+	    			<img src="img/8.jpg">
+	    			<h3><a href="">Pasteles personalizados</a></h3>
+	    			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+	    		</div>
+	    		<div class="container4con">
+	    			<img src="img/9.jpg">
+	    			<h3><a href="">Variedad de galletas</a></h3>
+	    			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+	    		</div>
+	    	</div>
+	    	</div>
+
+		
+		<div class="container5">
+			<div class="container11con">
+			<button class="fa fa-facebook"></button>
+			<button class="fa fa-twitter"></button>
+			<button class="fa fa-instagram"></button>
+			</div>
+		</div>
+		<footer id="foter">
+			<div class="foter">
+			<div class="fotercon">
+				<a><i class="fas fa-birthday-cake"></i> Divan'S</a>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vero consequuntur aut impedit error, molestias rerum facere ullam voluptatem ea, commodi excepturi maxime asperiores totam? Dicta, quam perspiciatis. Doloribus, aperiam.</p>
+
+			</div>
+		    <div class="fotercon1">
+		    	<h2>Ponerse En Contacto</h2>
+		    	<p>Habla a : 2256 Raice Apt. 789, Divan'S, Estados Unidos.<br>
+				Correo electrónico: <br>
+				info@mail.com<br>
+				Teléfono: + (21) -255-886-1234</p>
+		    </div>
+		    <div class="fotercon2">
+		    	<h2>Boletin Informativo</h2>
+		    	<p>Ingrese su correo electrónico y reciba nuestras últimas novedades. Nunca compartiremos su dirección de correo electrónico</p>
+		    	<div class="fotercon2correo">
+		    		<input type="email" name="correo" placeholder="Su direccion de correo electronico">
+		    	<button class="fa fa-paper-plane" aria-hidden="true"></button>
+		    	</div>
+		    </div>
+			</div>
+			<p id="p">© 2021 Divan'S Todos los derechos reservados | Tema de WordPress por W3Layouts.</p>
+
+		</footer>
+</body>
+</html> 
